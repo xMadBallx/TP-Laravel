@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
     <!-- Site meta -->
@@ -18,7 +18,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Ecommerce</a>
+            <a class="navbar-brand" href="/index">Ecommerce</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -28,13 +28,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
+                        <a class="nav-link" href="/index">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="products.html">Produits</a>
+                        <a class="nav-link" href="/products">Produits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="/contact">Contact</a>
                     </li>
                 </ul>
 
@@ -47,7 +47,7 @@
                             </button>
                         </div>
                     </div>
-                    <a class="btn btn-success btn-sm ms-3 d-inline-flex align-items-center" href="cart.html">
+                    <a class="btn btn-success btn-sm ms-3 d-inline-flex align-items-center" href="cart">
                         <i class="fa fa-shopping-cart me-2"></i> Panier
                         <span class="badge badge-light">3</span>
                     </a>
